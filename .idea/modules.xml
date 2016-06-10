@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///Volumes/Transcend/AndroidStudioProjects/remoteconfig/app/app.iml" filepath="/Volumes/Transcend/AndroidStudioProjects/remoteconfig/app/app.iml" />
-      <module fileurl="file:///Volumes/Transcend/AndroidStudioProjects/remoteconfig/remoteconfig.iml" filepath="/Volumes/Transcend/AndroidStudioProjects/remoteconfig/remoteconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteConfigSample.iml" filepath="$PROJECT_DIR$/RemoteConfigSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

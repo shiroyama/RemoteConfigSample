@@ -4,4 +4,8 @@
         <key>color</key>
         <value>white</value>
     </entry>
+    <entry>
+        <key>button</key>
+        <value>CLICK ME!!</value>
+    </entry>
 </defaultsMap>

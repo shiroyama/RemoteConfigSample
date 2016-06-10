@@ -19,10 +19,15 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String KEY_COLOR = "color";
 
+    private static final String KEY_BUTTON = "button";
+
     private FirebaseRemoteConfig remoteConfig;
 
     @BindView(R.id.container)
     View container;
+
+    @BindView(R.id.button)
+    Button button;
 
     @OnClick(R.id.button)
     void onClickButton(Button button) {
@@ -60,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                     String colorName = remoteConfig.getString(KEY_COLOR);
                     Log.d(TAG, "colorName: " + colorName);
                     container.setBackgroundColor(Color.parseColor(colorName));
+
+                    String buttonLabel = remoteConfig.getString(KEY_BUTTON);
+                    Log.d(TAG, "buttonLabel: " + buttonLabel);
+                    button.setText(buttonLabel);
                 })
                 .addOnFailureListener(e -> Log.e(TAG, "Fetch failed.", e));
     }
